@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomelo", "src\Pomelo\Pomelo.csproj", "{8AA85933-E935-498B-8EFD-C4C3C14211DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pomelo.Adapter.NetCoreServer", "src\Pomelo.Adapter.NetCoreServer\Pomelo.Adapter.NetCoreServer.csproj", "{638FCDC1-549A-4C98-A599-EBE31FF86C65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{CD2BFFE3-613D-4353-AD4B-F82CD9F1F97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCommandServer", "samples\SimpleCommandServer\SimpleCommandServer.csproj", "{BD2765AF-D5DB-468B-ADDC-CAD7AA0D79CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA85933-E935-498B-8EFD-C4C3C14211DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA85933-E935-498B-8EFD-C4C3C14211DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA85933-E935-498B-8EFD-C4C3C14211DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA85933-E935-498B-8EFD-C4C3C14211DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638FCDC1-549A-4C98-A599-EBE31FF86C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638FCDC1-549A-4C98-A599-EBE31FF86C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638FCDC1-549A-4C98-A599-EBE31FF86C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638FCDC1-549A-4C98-A599-EBE31FF86C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2765AF-D5DB-468B-ADDC-CAD7AA0D79CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2765AF-D5DB-468B-ADDC-CAD7AA0D79CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2765AF-D5DB-468B-ADDC-CAD7AA0D79CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2765AF-D5DB-468B-ADDC-CAD7AA0D79CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AA85933-E935-498B-8EFD-C4C3C14211DF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{638FCDC1-549A-4C98-A599-EBE31FF86C65} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BD2765AF-D5DB-468B-ADDC-CAD7AA0D79CC} = {CD2BFFE3-613D-4353-AD4B-F82CD9F1F97E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6F19810-CB66-444D-96C5-85EFD83D8EB0}
+	EndGlobalSection
+EndGlobal
